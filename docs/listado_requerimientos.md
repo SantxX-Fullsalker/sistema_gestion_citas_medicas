@@ -1,3 +1,12 @@
+###COMO INFORMACIÓN ADICIONAL AL DIAGRAMA UML
+## PATRONES DE DISEÑO UTILIZADOS:
+
+1. Patrón Singleton (Aplicable para la Clase Agenda)
+2. Patrón Factory (Aplicable para la Creación de Objetos Cita, Paciente, y Medico)
+3. Patrón Observer (Aplicable para la Clase Notificacion)
+4. Patrón Strategy (Aplicable para la Selección del Método de Notificación en la Clase Notificacion)
+
+
 ### Requerimientos del Sistema de Gestión de Citas Médicas
 
 **1. Funcionalidades Principales:**
@@ -47,5 +56,3 @@
    - No se integrará con servicios de terceros para el envío de notificaciones (dejado "en blanco" para futura implementación).
    - Desarrollado usando **Python** en **Visual Studio Code**.
    - Código siguiendo las buenas prácticas de programación: PEP-8, documentación, y comentarios mínimos necesarios.
-
-
